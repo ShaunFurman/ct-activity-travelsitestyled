@@ -3,9 +3,7 @@ Set the box sizing for every element on the page
 to border-box. This will ensure that elements have padding and 
 border included in the element's total width and height.
 */
-* {
-  box-sizing: border-box;
-}
+
 
 /*
 Target the body element and set some common styles for the page:
@@ -14,36 +12,23 @@ Target the body element and set some common styles for the page:
  - font to helvetica
  - font size to 16px
 */
-body
- {
-  background-color: black;
-  color: white;
-  font-family: 'helvetica';
-  font-size: 16px;
-}
+
 
 /*
 override our h1 style to have a font size of 32px
 */
-h1 {
-  font-size: 32px;
-}
+
 
 
 /*
 override our h2 style to have a font size of 28px
 */
-h2 {
-  font-size: 28px;
-}
+
 
 /*
 style the element with the id of header-statement to have centered text
 */
- #header-statement 
- {
-   text-align: center;
- }
+
 
 
 /*
@@ -53,13 +38,7 @@ target the elements with a class of page-row and set the following properties:
  - give the element a padding of 5%
  - give the element a margin of 2% on the top and bottom
 */
-.page-row {
-  width: 100%;
-  clear: both;
-  padding: 5%;  
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
+
 
 
 /*
@@ -75,18 +54,7 @@ target the elements with a class of card and set the following properties:
  - background size to contain //Scale the image to the largest size such that both its width and its height can fit inside the content area
  - background to not repeat
 */
-.card {
-  width: 20%;
-  height: 300px;
-  margin: 2.5%;
-  padding-top: 15%;
-  float: left;
-  background-color: white;
-  text-align: center;
-  color: black;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+
 
  
 /*
@@ -98,58 +66,44 @@ target the element with the id of hero and set the following properties
  - background image to our hero image (travel_hero.jpg) in our assets/images directory
  - background image to be fixed // this will give the effect of the page scrolling over the hero image
 */
-#hero {
-  width: 100%;
-  height: 450px;
-  background-size: cover;
-  background-image: url(C:\Users\Shaun\Documents\ct-activity-travelsitestyled\assets\images\travel_hero.jpg);
-  background-attachment: fixed;           
-}
+
 
 
 /*
 target the element with the class of card that also has an id of spain
  - set the background image to (spain_flag.svg) in our assets/images directory
 */
-.card#spain {
-background-image: url(C:\Users\Shaun\Documents\ct-activity-travelsitestyled\assets\images\spain_flag.svg);
-}
+
 
 /*
 target the element with the class of card that also has an id of italy
 - set the background image to (italy_flag.svg) in our assets/images directory
 */
-.card#italy {
-  background-image: url(C:\Users\Shaun\Documents\ct-activity-travelsitestyled\assets\images\italy_flag.svg);
-}
+
 
 
 /*
 target the element with the class of card that also has an id of aruba
 - set the background image to (aruba_flag.svg) in our assets/images directory
 */
-.card#aruba {
-  background-image: url(C:\Users\Shaun\Documents\ct-activity-travelsitestyled\assets\images\aruba_flag.svg);
-}
+
+
 
 /*
 target the element with the class of card that also has an id of chile
 - set the background image to (chile_flag.svg) in our assets/images directory
 */
-.card#chile {
-  background-image: url(C:\Users\Shaun\Documents\ct-activity-travelsitestyled\assets\images\chile_flag.svg);
-}
+
+
+
 /*
  target the header element and set the following properties:
   - width to 100%
   - height to 100px
   - line height to 100px
 */
-header {
-  width: 100%;
-  height: 100px;
-  line-height: 100px;
-}
+ 
+
 
 /*
  target the element with the id of logo and float it to the left
